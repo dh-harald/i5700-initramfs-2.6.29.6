@@ -33,6 +33,7 @@ file /sbin/recovery /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/r
 file /sbin/adbd /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/adbd 0755 0 0
 file /sbin/adbd2 /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/adbd2 0755 0 0
 file /sbin/ash /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/ash 0755 0 0
+file /sbin/bml_flash /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/bml_flash 0755 0 0
 file /sbin/su /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/su 6755 0 0
 dir /res 0755 0 0
 dir /res/images 0755 0 0
