@@ -23,7 +23,7 @@ loglevel 3
     symlink /sys/kernel/debug /d
 
 # Kernel version
-    setprop ro.build.display.id "K/Criminal.r1"
+    setprop ro.build.display.id "K/Criminal.r2"
 
 # insert modules
 #ifdef SLSI_S3C6410
