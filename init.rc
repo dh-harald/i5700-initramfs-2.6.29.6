@@ -17,6 +17,7 @@ loglevel 3
     export ASEC_MOUNTPOINT /mnt/asec
     export SD_EXT_DIRECTORY /sd-ext
     export BOOTCLASSPATH /system/framework/core.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/android.policy.jar:/system/framework/services.jar
+    export TERMINFO /system/etc/terminfo
 
 # Backward compatibility
     symlink /system/etc /etc
