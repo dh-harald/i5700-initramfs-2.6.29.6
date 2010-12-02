@@ -589,6 +589,12 @@ service pbap /system/bin/sdptool add --channel=19 PBAP
     disabled
     oneshot
 
+service ftp /system/bin/sdptool add --channel=20 FTP
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
 service hciattach /system/bin/brcm_patchram_plus -d --baudrate 3000000 --patchram /system/bin/BCM4325D1_004.002.004.0153.0173.hcd --enable_hci /dev/s3c_serial1
     user bluetooth
     group bluetooth net_bt_admin
