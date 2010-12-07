@@ -3,7 +3,7 @@ on init
 # S.LSI FIX : output console directly 
 #	export PATH /sbin
         export PATH /sbin:/xbin:/system/sbin:/system/bin:/system/xbin
-        export LD_LIBRARY_PATH /xbin/lib:/system/lib:/system/lib/egl
+        export LD_LIBRARY_PATH /system/lib:/system/lib/egl
 
 	export ANDROID_DATA /data
 	export EXTERNAL_STORAGE /sdcard
@@ -47,8 +47,8 @@ on init
     	#mount rfs /dev/stl10 /efs nosuid nodev xattr,check=no
 # S.LSI FIX END
 
-        # /xbin (busybox)
-        mount squashfs /dev/bml8 /xbin ro loop
+#        # /xbin (busybox)
+#        mount squashfs /dev/bml8 /xbin ro loop
 
 # Mod version
 	setprop ro.modversion "LK based on CM v1.4 + JF"
