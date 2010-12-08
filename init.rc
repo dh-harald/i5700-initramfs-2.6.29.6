@@ -24,7 +24,7 @@ loglevel 3
     symlink /sys/kernel/debug /d
 
 # Kernel version
-    setprop ro.build.display.id "K/Criminal.r4"
+    setprop ro.build.display.id "K/Criminal.r6"
 
 # insert modules
 #ifdef SLSI_S3C6410
@@ -115,6 +115,11 @@ loglevel 3
     write /dev/cpuctl/bg_non_interactive/cpu.shares 52
 
 # mount mtd partitions (rfs/ext2/ext4 support)
+    chmod 0666 /dev/bml8
+
+    # /xbin (busybox) need it first
+    mount squashfs /dev/bml8 /xbin ro loop
+
     # Mount /system rw first to give the filesystem a chance to save a checkpoint
     # mount yaffs2 mtd@system /system 
     # mount yaffs2 mtd@system /system ro remount
@@ -188,11 +193,6 @@ loglevel 3
     chmod 0777 /dev/akm8973_aot
 #   chmod 0777 /dev/bma020
 #   chmod 0777 /dev/proximity
-
-    chmod 0666 /dev/bml8
-
-    # /xbin (busybox)
-    mount squashfs /dev/bml8 /xbin ro loop
 
 # create basic filesystem structure
     mkdir /data/misc 01771 system misc
