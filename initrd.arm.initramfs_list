@@ -1,75 +1,83 @@
 dir /lib 0755 0 0
 dir /lib/modules 0755 0 0
-file /lib/modules/crc32.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/crc32.ko 0644 0 0
-file /lib/modules/dhd.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/dhd.ko 0644 0 0
-file /lib/modules/rfs.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/rfs.ko 0644 0 0
-file /lib/modules/s3c_g3d.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_g3d.ko 0644 0 0
-file /lib/modules/s3c_cmm.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_cmm.ko 0644 0 0
-file /lib/modules/s3c_camera.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_camera.ko 0644 0 0
-file /lib/modules/dpram.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/dpram.ko 0644 0 0
-file /lib/modules/s3c_rotator.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_rotator.ko 0644 0 0
-file /lib/modules/xsr_stl.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/xsr_stl.ko 0644 0 0
-file /lib/modules/s3c_jpeg.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_jpeg.ko 0644 0 0
-file /lib/modules/s3c_g2d_driver.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_g2d_driver.ko 0644 0 0
-file /lib/modules/param.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/param.ko 0644 0 0
-file /lib/modules/xsr.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/xsr.ko 0644 0 0
-file /lib/modules/multipdp.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/multipdp.ko 0644 0 0
-file /lib/modules/s3c_pp.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_pp.ko 0644 0 0
-file /lib/modules/s3c_mfc.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/s3c_mfc.ko 0644 0 0
-file /lib/modules/vibrator.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/vibrator.ko 0644 0 0
-file /lib/modules/xsr_debug.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/xsr_debug.ko 0644 0 0
-file /lib/modules/tun.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/tun.ko 0644 0 0
-file /lib/modules/qt5480.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/qt5480.ko 0644 0 0
-file /lib/modules/ramzswap.ko /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/lib/modules/ramzswap.ko 0644 0 0
-file /init.rc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/init.rc 0644 0 0
+file /lib/modules/crc32.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/crc32.ko 0644 0 0
+file /lib/modules/dhd.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/dhd.ko 0644 0 0
+file /lib/modules/rfs.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/rfs.ko 0644 0 0
+file /lib/modules/s3c_g3d.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_g3d.ko 0644 0 0
+file /lib/modules/s3c_cmm.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_cmm.ko 0644 0 0
+file /lib/modules/s3c_camera.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_camera.ko 0644 0 0
+file /lib/modules/stgloc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/stgloc 0644 0 0
+file /lib/modules/dpram.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/dpram.ko 0644 0 0
+file /lib/modules/s3c_rotator.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_rotator.ko 0644 0 0
+file /lib/modules/xsr_stl.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/xsr_stl.ko 0644 0 0
+file /lib/modules/s3c_jpeg.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_jpeg.ko 0644 0 0
+file /lib/modules/s3c_g2d_driver.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_g2d_driver.ko 0644 0 0
+file /lib/modules/param.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/param.ko 0644 0 0
+file /lib/modules/xsr.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/xsr.ko 0644 0 0
+file /lib/modules/multipdp.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/multipdp.ko 0644 0 0
+file /lib/modules/s3c_pp.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_pp.ko 0644 0 0
+file /lib/modules/s3c_mfc.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/s3c_mfc.ko 0644 0 0
+file /lib/modules/vibrator.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/vibrator.ko 0644 0 0
+file /lib/modules/xsr_debug.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/xsr_debug.ko 0644 0 0
+file /lib/modules/tun.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/tun.ko 0644 0 0
+file /lib/modules/qt5480.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/qt5480.ko 0644 0 0
+
+file /init.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/init.rc 0644 0 0
+file /ueventd.goldfish.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/ueventd.goldfish.rc 0644 0 0
+file /ueventd.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/ueventd.rc 0644 0 0
+file /ueventd.spica.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/ueventd.spica.rc 0644 0 0
+
 slink /etc /system/etc 0777 0 0
 dir /sys 0755 0 0
-file /sys/stgloc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sys/stgloc 0644 0 0
-file /recovery.rc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/recovery.rc 0644 0 0
-file /recovery_hardkey.rc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/recovery_hardkey.rc 0644 0 0
-file /init /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/init 0755 0 0
+file /sys/stgloc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sys/stgloc 0644 0 0
+file /recovery.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/recovery.rc 0644 0 0
+file /recovery_hardkey.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/recovery_hardkey.rc 0644 0 0
+file /init /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/init 0755 0 0
 dir /sbin 0755 0 0
-file /sbin/recovery /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/recovery 0755 0 0
-file /sbin/adbd /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/adbd 0755 0 0
-file /sbin/adbd2 /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/adbd2 0755 0 0
-file /sbin/ash /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/ash 0755 0 0
-file /sbin/bml_flash /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/bml_flash 0755 0 0
-file /sbin/su /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/sbin/su 6755 0 0
+file /sbin/su /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sbin/su 6755 0 0
+file /sbin/recovery /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sbin/recovery 0755 0 0
+file /sbin/adbd /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sbin/adbd 0755 0 0
+file /sbin/adbd2 /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sbin/adbd2 0755 0 0
+file /sbin/ash /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/sbin/ash 0755 0 0
 dir /res 0755 0 0
 dir /res/images 0755 0 0
-file /res/images/indeterminate1.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate1.png 0644 0 0
-file /res/images/indeterminate2.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate2.png 0644 0 0
-file /res/images/indeterminate3.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate3.png 0644 0 0
-file /res/images/indeterminate4.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate4.png 0644 0 0
-file /res/images/indeterminate5.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate5.png 0644 0 0
-file /res/images/indeterminate6.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/indeterminate6.png 0644 0 0
-file /res/images/icon_firmware_install.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/icon_firmware_install.png 0644 0 0
-file /res/images/icon_error.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/icon_error.png 0644 0 0
-file /res/images/icon_installing.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/icon_installing.png 0644 0 0
-file /res/images/icon_firmware_error.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/icon_firmware_error.png 0644 0 0
-file /res/images/progress_bar_empty_right_round.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_empty_right_round.png 0644 0 0
-file /res/images/progress_bar_fill.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_fill.png 0644 0 0
-file /res/images/progress_bar_empty.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_empty.png 0644 0 0
-file /res/images/progress_bar_right_round.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_right_round.png 0644 0 0
-file /res/images/progress_bar_left_round.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_left_round.png 0644 0 0
-file /res/images/progress_bar_empty_left_round.png /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/res/images/progress_bar_empty_left_round.png 0644 0 0
+
+file /res/images/indeterminate1.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate1.png 0644 0 0
+file /res/images/indeterminate2.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate2.png 0644 0 0
+file /res/images/indeterminate3.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate3.png 0644 0 0
+file /res/images/indeterminate4.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate4.png 0644 0 0
+file /res/images/indeterminate5.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate5.png 0644 0 0
+file /res/images/indeterminate6.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/indeterminate6.png 0644 0 0
+file /res/images/icon_firmware_install.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/icon_firmware_install.png 0644 0 0
+file /res/images/icon_error.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/icon_error.png 0644 0 0
+file /res/images/icon_installing.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/icon_installing.png 0644 0 0
+file /res/images/icon_firmware_error.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/icon_firmware_error.png 0644 0 0
+file /res/images/progress_bar_empty_right_round.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_empty_right_round.png 0644 0 0
+file /res/images/progress_bar_fill.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_fill.png 0644 0 0
+file /res/images/progress_bar_empty.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_empty.png 0644 0 0
+file /res/images/progress_bar_right_round.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_right_round.png 0644 0 0
+file /res/images/progress_bar_left_round.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_left_round.png 0644 0 0
+file /res/images/progress_bar_empty_left_round.png /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/res/images/progress_bar_empty_left_round.png 0644 0 0
+
 dir /system 0755 0 0
 dir /system/etc 0755 0 0
-file /system/etc/ld.so.cache /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/system/etc/ld.so.cache 0644 0 0
+file /system/etc/ld.so.cache /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/system/etc/ld.so.cache 0644 0 0
 dir /proc 0755 0 0
-file /proc/stgloc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/proc/stgloc 0644 0 0
+file /proc/stgloc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/proc/stgloc 0644 0 0
 dir /dev 0755 0 0
-file /dev/stgloc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/dev/stgloc 0644 0 0
+file /dev/stgloc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/dev/stgloc 0644 0 0
 dir /tmp 0755 0 0
-file /tmp/s3c-keypad-rev0020.kl /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0020.kl 0644 0 0
-file /tmp/s3c-keypad-rev0000.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0000.kcm.bin 0666 0 0
-file /tmp/s3c-keypad-rev0020.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0020.kcm.bin 0666 0 0
-file /tmp/s3c-keypad-rev0000.kl /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0000.kl 0644 0 0
-file /tmp/s3c-keypad-rev0010.kl /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0010.kl 0644 0 0
+file /tmp/s3c-keypad-rev0020.kl /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0020.kl 0644 0 0
+file /tmp/s3c-keypad-rev0000.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0000.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev0020.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0020.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev0000.kl /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0000.kl 0644 0 0
+file /tmp/s3c-keypad-rev0010.kl /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0010.kl 0644 0 0
 dir /tmp/bootchart 0755 0 0
-file /tmp/bootchart/stgloc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/bootchart/stgloc 0644 0 0
-file /tmp/sec_headset.kl /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/sec_headset.kl 0755 0 0
-file /tmp/s3c-keypad-rev0010.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/tmp/s3c-keypad-rev0010.kcm.bin 0666 0 0
-file /fota.rc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/fota.rc 0644 0 0
-file /default.prop /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/default.prop 0644 0 0
-file /init.GT-I5700.rc /usr/src/kernel/i5700-leshak-initramfs-froyo-2.6.29.6/init.GT-I5700.rc 0644 0 0
+file /tmp/bootchart/stgloc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/bootchart/stgloc 0644 0 0
+file /tmp/sec_headset.kl /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/sec_headset.kl 0755 0 0
+file /tmp/s3c-keypad-rev0010.kcm.bin /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/tmp/s3c-keypad-rev0010.kcm.bin 0666 0 0
+file /fota.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/fota.rc 0644 0 0
+file /default.prop /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/default.prop 0644 0 0
+file /init.spica.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/init.spica.rc 0644 0 0
+
+slink /sbin/ueventd /init 0755 0 0
