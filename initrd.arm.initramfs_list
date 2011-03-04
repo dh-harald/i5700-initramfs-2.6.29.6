@@ -21,6 +21,7 @@ file /lib/modules/vibrator.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread
 file /lib/modules/xsr_debug.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/xsr_debug.ko 0644 0 0
 file /lib/modules/tun.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/tun.ko 0644 0 0
 file /lib/modules/qt5480.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/qt5480.ko 0644 0 0
+file /lib/modules/ramzswap.ko /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/lib/modules/ramzswap.ko 0644 0 0
 
 file /init.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/init.rc 0644 0 0
 file /ueventd.goldfish.rc /usr/src/kernel/i5700-leshak-initramfs-gingerbread-2.6.29.6/ueventd.goldfish.rc 0644 0 0
